@@ -14,6 +14,8 @@ TagManager:
   - Hazard
   - HazardB1
   - HazardB2
+  - ObjectsL
+  - Interactables
   layers:
   - Default
   - TransparentFX

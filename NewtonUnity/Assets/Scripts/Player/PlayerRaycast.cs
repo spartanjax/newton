@@ -42,7 +42,7 @@ public class PlayerRaycast : MonoBehaviour
 
         if(Physics.Raycast(cameraParent.transform.position, cameraParent.transform.forward, out whatIHit, distanceToSee))
         {
-            if (whatIHit.collider.tag == "Objects")  
+            if (whatIHit.collider.tag == "Interactables")  
                 {
                 //Tutorial Objects
                 if (whatIHit.collider.gameObject.GetComponent<ObjectManager>().whatAmI == ObjectManager.Objects.keyCard)
