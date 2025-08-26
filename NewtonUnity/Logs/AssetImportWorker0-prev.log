@@ -12,20 +12,20 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53020
+53404
 Successfully changed project path to: /Users/jackson/Documents/∆SCHOOL∆/Year 12/13 D-Tech/aotMovement
 /Users/jackson/Documents/∆SCHOOL∆/Year 12/13 D-Tech/aotMovement
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 47.55 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 44.49 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.12f1 (b3b2c6512326)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.12f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/jackson/Documents/∆SCHOOL∆/Year 12/13 D-Tech/aotMovement/Assets
 GfxDevice: creating device client; threaded=0
-2025-08-26 18:31:31.161 Unity[21067:813411] (null) preferred device: Apple M4 (high power)
-2025-08-26 18:31:31.162 Unity[21067:813411] Metal devices available: 1
-2025-08-26 18:31:31.162 Unity[21067:813411] 0: Apple M4 (high power)
-2025-08-26 18:31:31.162 Unity[21067:813411] Using device Apple M4 (high power)
+2025-08-26 18:47:26.743 Unity[21260:825066] (null) preferred device: Apple M4 (high power)
+2025-08-26 18:47:26.743 Unity[21260:825066] Metal devices available: 1
+2025-08-26 18:47:26.743 Unity[21260:825066] 0: Apple M4 (high power)
+2025-08-26 18:47:26.743 Unity[21260:825066] Using device Apple M4 (high power)
 Initializing Metal device caps: Apple M4
 Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
@@ -33,25 +33,25 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.12f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.12f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/Hub/Editor/2020.3.12f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56067
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56260
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2020.3.12f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.001639 seconds.
+Registered in 0.000950 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 44.15 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 42.72 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.081 seconds
+- Completed reload, in  1.079 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003517 seconds.
+Registered in 0.003439 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 42.78 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 46.94 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.576 seconds
+- Completed reload, in  1.726 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
@@ -59,14 +59,14 @@ Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAddi
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Launching external process: /Applications/Unity/Hub/Editor/2020.3.12f1/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3156 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 114.8 MB.
-System memory in use after: 115.0 MB.
+System memory in use before: 114.7 MB.
+System memory in use after: 114.9 MB.
 
-Unloading 100 unused Assets to reduce memory usage. Loaded Objects now: 3594.
-Total: 2.018042 ms (FindLiveObjects: 0.187958 ms CreateObjectMapping: 0.040209 ms MarkObjects: 1.427292 ms  DeleteObjects: 0.362042 ms)
+Unloading 99 unused Assets to reduce memory usage. Loaded Objects now: 3595.
+Total: 1.856792 ms (FindLiveObjects: 0.180458 ms CreateObjectMapping: 0.037584 ms MarkObjects: 1.385000 ms  DeleteObjects: 0.253125 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -80,23 +80,79 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/Main.unity
-  artifactKey: Guid(665acfa9837f7e24e82bf7b92ba86b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Main.unity using Guid(665acfa9837f7e24e82bf7b92ba86b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '856b1f963b14436759c7db7baa2ee426') in 0.009001 seconds 
-  Import took 0.014299 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 180.865034 seconds.
-  path: Assets/Animations/Right Door/Right.controller
-  artifactKey: Guid(a326702c7f146324bad21382ddbca7d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Right Door/Right.controller using Guid(a326702c7f146324bad21382ddbca7d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d8f67310673c5751401664feab91bfa') in 0.103650 seconds 
-  Import took 0.107150 seconds .
+  path: Assets/Animations/Left.controller
+  artifactKey: Guid(19477307d393b5149a3dcc54a87e26f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Left.controller using Guid(19477307d393b5149a3dcc54a87e26f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72b1fe9d3794ec2e807d66a6d7d8c011') in 0.085710 seconds 
+  Import took 0.089683 seconds .
 
 ========================================================================
 Received Prepare
+Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.17 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 40.9 MB.
+System memory in use after: 41.1 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3595.
+Total: 3.317083 ms (FindLiveObjects: 0.185791 ms CreateObjectMapping: 0.038292 ms MarkObjects: 2.920000 ms  DeleteObjects: 0.172667 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004924 seconds.
+Registered in 0.002189 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.575 seconds
+Platform modules already initialized, skipping
+Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3054 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.5 MB.
+System memory in use after: 96.8 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3597.
+Total: 1.739208 ms (FindLiveObjects: 0.167875 ms CreateObjectMapping: 0.044125 ms MarkObjects: 1.441000 ms  DeleteObjects: 0.085416 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001054 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
 Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
@@ -111,18 +167,388 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (
 [/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.371 seconds
+- Completed reload, in  1.586 seconds
+Platform modules already initialized, skipping
+Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3054 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.9 MB.
+System memory in use after: 92.1 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3599.
+Total: 1.567000 ms (FindLiveObjects: 0.128667 ms CreateObjectMapping: 0.038584 ms MarkObjects: 1.319541 ms  DeleteObjects: 0.079666 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 867.794417 seconds.
+  path: Assets/Prefabs/Escape Pod.prefab
+  artifactKey: Guid(4bc1e142d1c9a4e3dad67eb67442170d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Escape Pod.prefab using Guid(4bc1e142d1c9a4e3dad67eb67442170d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dbe10e1baf966f721cda4e4858e77bd') in 0.079155 seconds 
+  Import took 0.082488 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003484 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.646 seconds
 Platform modules already initialized, skipping
 Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3055 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 104.7 MB.
-System memory in use after: 104.9 MB.
+Unloading 3054 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.0 MB.
+System memory in use after: 91.2 MB.
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3596.
-Total: 1.647250 ms (FindLiveObjects: 0.160125 ms CreateObjectMapping: 0.038209 ms MarkObjects: 1.346834 ms  DeleteObjects: 0.101417 ms)
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3601.
+Total: 2.091833 ms (FindLiveObjects: 0.302084 ms CreateObjectMapping: 0.045583 ms MarkObjects: 1.647458 ms  DeleteObjects: 0.096042 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1713.308883 seconds.
+  path: Assets/Prefabs/Escape Pod.prefab
+  artifactKey: Guid(4bc1e142d1c9a4e3dad67eb67442170d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Escape Pod.prefab using Guid(4bc1e142d1c9a4e3dad67eb67442170d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c835138713f890c4452031f346553b0') in 0.180327 seconds 
+  Import took 0.183775 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 395.353313 seconds.
+  path: Assets/Imported Assets/Low Poly Space Station/Components/Models/laptop_with_router.fbx
+  artifactKey: Guid(389bca76cf7689a42a0981a4385af285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Low Poly Space Station/Components/Models/laptop_with_router.fbx using Guid(389bca76cf7689a42a0981a4385af285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a9e1124b4f87572d3ebc0f88d29a0c4') in 0.116301 seconds 
+  Import took 0.120628 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.710605 seconds.
+  path: Assets/Imported Assets/Low Poly Space Station/Components/Models/laptop_with_router_off.fbx
+  artifactKey: Guid(bd9b2e03b808e04469b8f93dddf0d727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Low Poly Space Station/Components/Models/laptop_with_router_off.fbx using Guid(bd9b2e03b808e04469b8f93dddf0d727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca7393b39f35ee51f66b75c81425dc6f') in 0.012549 seconds 
+  Import took 0.018330 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000545 seconds.
+  path: Assets/Imported Assets/Low Poly Space Station/Components/Models/laptop_with_router_off.fbx
+  artifactKey: Guid(bd9b2e03b808e04469b8f93dddf0d727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Low Poly Space Station/Components/Models/laptop_with_router_off.fbx using Guid(bd9b2e03b808e04469b8f93dddf0d727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca7393b39f35ee51f66b75c81425dc6f') in 0.012890 seconds 
+  Import took 0.016234 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 210.869389 seconds.
+  path: Assets/Imported Assets/Low Poly Space Station/Components/Models/wires_2.fbx
+  artifactKey: Guid(64643044fcdf8134fb6f1080deb1e5db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Low Poly Space Station/Components/Models/wires_2.fbx using Guid(64643044fcdf8134fb6f1080deb1e5db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e912a781d70dbf448eee486c63a7557f') in 0.019375 seconds 
+  Import took 0.023107 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002128 seconds.
+  path: Assets/Imported Assets/Low Poly Space Station/Components/Models/wires_2.fbx
+  artifactKey: Guid(64643044fcdf8134fb6f1080deb1e5db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Low Poly Space Station/Components/Models/wires_2.fbx using Guid(64643044fcdf8134fb6f1080deb1e5db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e912a781d70dbf448eee486c63a7557f') in 0.012656 seconds 
+  Import took 0.015947 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.482956 seconds.
+  path: Assets/Imported Assets/Low Poly Space Station/Components/Models/tubes_orange_1.fbx
+  artifactKey: Guid(f3e92db61b5461d4b84e3e9d8ba3c022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Low Poly Space Station/Components/Models/tubes_orange_1.fbx using Guid(f3e92db61b5461d4b84e3e9d8ba3c022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0008f5eada7b1a05f78f3673c2f417c5') in 0.017564 seconds 
+  Import took 0.021514 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001634 seconds.
+  path: Assets/Imported Assets/Low Poly Space Station/Components/Models/tubes_orange_1.fbx
+  artifactKey: Guid(f3e92db61b5461d4b84e3e9d8ba3c022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Low Poly Space Station/Components/Models/tubes_orange_1.fbx using Guid(f3e92db61b5461d4b84e3e9d8ba3c022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0008f5eada7b1a05f78f3673c2f417c5') in 0.009610 seconds 
+  Import took 0.012646 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.695250 seconds.
+  path: Assets/Imported Assets/Low Poly Space Station/Components/Models/tube_short.fbx
+  artifactKey: Guid(473f143d9d0cd45478c61fb25e8976fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Low Poly Space Station/Components/Models/tube_short.fbx using Guid(473f143d9d0cd45478c61fb25e8976fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07ae65b2597853beaabc8ac2b709bff1') in 0.010541 seconds 
+  Import took 0.014213 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004332 seconds.
+  path: Assets/Imported Assets/Low Poly Space Station/Components/Models/tube_short.fbx
+  artifactKey: Guid(473f143d9d0cd45478c61fb25e8976fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Low Poly Space Station/Components/Models/tube_short.fbx using Guid(473f143d9d0cd45478c61fb25e8976fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07ae65b2597853beaabc8ac2b709bff1') in 0.014535 seconds 
+  Import took 0.018372 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.763927 seconds.
+  path: Assets/Imported Assets/Low Poly Space Station/Components/Models/tubes_black_1.fbx
+  artifactKey: Guid(3015e1246d1d91548be188e9f29f6462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Low Poly Space Station/Components/Models/tubes_black_1.fbx using Guid(3015e1246d1d91548be188e9f29f6462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '684e632bf2940193bea62c9ec94e436f') in 0.013761 seconds 
+  Import took 0.018668 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004735 seconds.
+  path: Assets/Imported Assets/Low Poly Space Station/Components/Models/tubes_black_1.fbx
+  artifactKey: Guid(3015e1246d1d91548be188e9f29f6462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Low Poly Space Station/Components/Models/tubes_black_1.fbx using Guid(3015e1246d1d91548be188e9f29f6462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '684e632bf2940193bea62c9ec94e436f') in 0.012859 seconds 
+  Import took 0.016597 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 58.537222 seconds.
+  path: Assets/Imported Assets/Low Poly Space Station/Components/Models/lamp_big.fbx
+  artifactKey: Guid(b0a2999f7e2880c4ba274c544e85784b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Low Poly Space Station/Components/Models/lamp_big.fbx using Guid(b0a2999f7e2880c4ba274c544e85784b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ab8a9f6bc24b63d219d0c1f1b6155dd') in 0.012427 seconds 
+  Import took 0.016095 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008723 seconds.
+  path: Assets/Imported Assets/Low Poly Space Station/Components/Models/lamp_big.fbx
+  artifactKey: Guid(b0a2999f7e2880c4ba274c544e85784b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Low Poly Space Station/Components/Models/lamp_big.fbx using Guid(b0a2999f7e2880c4ba274c544e85784b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ab8a9f6bc24b63d219d0c1f1b6155dd') in 0.012561 seconds 
+  Import took 0.015779 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 87.161920 seconds.
+  path: Assets/Imported Assets/Low Poly Space Station/Components/Models/laptop_main_off.fbx
+  artifactKey: Guid(bfd7ff467d78f4d4e860b9c548b4143a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Low Poly Space Station/Components/Models/laptop_main_off.fbx using Guid(bfd7ff467d78f4d4e860b9c548b4143a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13b23bb47d34fc578078cfabb7edea25') in 0.024838 seconds 
+  Import took 0.028367 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.692456 seconds.
+  path: Assets/Imported Assets/Low Poly Space Station/Components/Models/laptop_main.fbx
+  artifactKey: Guid(846f953cc4869dc49b01dc535b21642a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Low Poly Space Station/Components/Models/laptop_main.fbx using Guid(846f953cc4869dc49b01dc535b21642a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dac64cefcd11c9cefa8890f9b7e4afee') in 0.017916 seconds 
+  Import took 0.021740 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.270606 seconds.
+  path: Assets/Imported Assets/Low Poly Space Station/Components/Models/laptop_wires_off.fbx
+  artifactKey: Guid(83e5d99a235c291448db533aac427219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Low Poly Space Station/Components/Models/laptop_wires_off.fbx using Guid(83e5d99a235c291448db533aac427219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e80d1398071bf9b6b64f64a5e428a56e') in 0.010642 seconds 
+  Import took 0.014250 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005266 seconds.
+  path: Assets/Imported Assets/Low Poly Space Station/Components/Models/laptop_wires_off.fbx
+  artifactKey: Guid(83e5d99a235c291448db533aac427219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Low Poly Space Station/Components/Models/laptop_wires_off.fbx using Guid(83e5d99a235c291448db533aac427219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e80d1398071bf9b6b64f64a5e428a56e') in 0.010094 seconds 
+  Import took 0.013487 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.192037 seconds.
+  path: Assets/Imported Assets/Low Poly Space Station/Components/Models/Main
+  artifactKey: Guid(c9e37ab59baf16c459746cac5653abe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Low Poly Space Station/Components/Models/Main using Guid(c9e37ab59baf16c459746cac5653abe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0105eb0b36eaffa97eba3ba0bb570b4') in 0.000896 seconds 
+  Import took 0.005151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.786899 seconds.
+  path: Assets/Imported Assets/Low Poly Space Station/Components/Models/monitor_1.fbx
+  artifactKey: Guid(9e839e80ba9ccf642af682f4f81f17cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Low Poly Space Station/Components/Models/monitor_1.fbx using Guid(9e839e80ba9ccf642af682f4f81f17cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41c6d574942158ab63a7042e49fc1100') in 0.013399 seconds 
+  Import took 0.017165 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005515 seconds.
+  path: Assets/Imported Assets/Low Poly Space Station/Components/Models/monitor_1.fbx
+  artifactKey: Guid(9e839e80ba9ccf642af682f4f81f17cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Low Poly Space Station/Components/Models/monitor_1.fbx using Guid(9e839e80ba9ccf642af682f4f81f17cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41c6d574942158ab63a7042e49fc1100') in 0.012566 seconds 
+  Import took 0.016260 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.665156 seconds.
+  path: Assets/Imported Assets/Low Poly Space Station/Components/Models/monitor_2.fbx
+  artifactKey: Guid(812949c4a00c9164c9433b6ec0bc3aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Low Poly Space Station/Components/Models/monitor_2.fbx using Guid(812949c4a00c9164c9433b6ec0bc3aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccd19b4ca36cf5f73a7cba1460ea2a65') in 0.011780 seconds 
+  Import took 0.016588 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009591 seconds.
+  path: Assets/Imported Assets/Low Poly Space Station/Components/Models/monitor_2.fbx
+  artifactKey: Guid(812949c4a00c9164c9433b6ec0bc3aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Low Poly Space Station/Components/Models/monitor_2.fbx using Guid(812949c4a00c9164c9433b6ec0bc3aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccd19b4ca36cf5f73a7cba1460ea2a65') in 0.010126 seconds 
+  Import took 0.013906 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.776088 seconds.
+  path: Assets/Imported Assets/Low Poly Space Station/Components/Models/monitor_2_off.fbx
+  artifactKey: Guid(6cc74f26f1ff5d04ca6c38e3019326c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Low Poly Space Station/Components/Models/monitor_2_off.fbx using Guid(6cc74f26f1ff5d04ca6c38e3019326c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e76ba4555b33bb5ad93779747eb3b1a') in 0.012469 seconds 
+  Import took 0.017234 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008361 seconds.
+  path: Assets/Imported Assets/Low Poly Space Station/Components/Models/monitor_2_off.fbx
+  artifactKey: Guid(6cc74f26f1ff5d04ca6c38e3019326c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Low Poly Space Station/Components/Models/monitor_2_off.fbx using Guid(6cc74f26f1ff5d04ca6c38e3019326c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e76ba4555b33bb5ad93779747eb3b1a') in 0.013293 seconds 
+  Import took 0.016798 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.601746 seconds.
+  path: Assets/Imported Assets/Low Poly Space Station/Components/Models/net.fbx
+  artifactKey: Guid(5a686d7f471458f4b8359d7ec0931595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Low Poly Space Station/Components/Models/net.fbx using Guid(5a686d7f471458f4b8359d7ec0931595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b496c46615a6b418d30f6d4a3adb086') in 0.010511 seconds 
+  Import took 0.014127 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003832 seconds.
+  path: Assets/Imported Assets/Low Poly Space Station/Components/Models/net.fbx
+  artifactKey: Guid(5a686d7f471458f4b8359d7ec0931595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Low Poly Space Station/Components/Models/net.fbx using Guid(5a686d7f471458f4b8359d7ec0931595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b496c46615a6b418d30f6d4a3adb086') in 0.012935 seconds 
+  Import took 0.016589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.941393 seconds.
+  path: Assets/Imported Assets/Low Poly Space Station/Components/Models/notepad.fbx
+  artifactKey: Guid(67d50df1a6b08c14c8f57ebf779f662f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Low Poly Space Station/Components/Models/notepad.fbx using Guid(67d50df1a6b08c14c8f57ebf779f662f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5558b3c7a1f55dba0321fa842aa7f5e3') in 0.013029 seconds 
+  Import took 0.016594 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006029 seconds.
+  path: Assets/Imported Assets/Low Poly Space Station/Components/Models/notepad.fbx
+  artifactKey: Guid(67d50df1a6b08c14c8f57ebf779f662f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Low Poly Space Station/Components/Models/notepad.fbx using Guid(67d50df1a6b08c14c8f57ebf779f662f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5558b3c7a1f55dba0321fa842aa7f5e3') in 0.013558 seconds 
+  Import took 0.017107 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.341307 seconds.
+  path: Assets/Imported Assets/Low Poly Space Station/Components/Models/panel_2.fbx
+  artifactKey: Guid(1edec9f980b856547bd6d21636e95743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Low Poly Space Station/Components/Models/panel_2.fbx using Guid(1edec9f980b856547bd6d21636e95743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6546656de6a1540d2d5c2c7ca779463') in 0.012178 seconds 
+  Import took 0.016627 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007740 seconds.
+  path: Assets/Imported Assets/Low Poly Space Station/Components/Models/panel_2.fbx
+  artifactKey: Guid(1edec9f980b856547bd6d21636e95743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Low Poly Space Station/Components/Models/panel_2.fbx using Guid(1edec9f980b856547bd6d21636e95743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6546656de6a1540d2d5c2c7ca779463') in 0.013201 seconds 
+  Import took 0.016712 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.646920 seconds.
+  path: Assets/Imported Assets/Low Poly Space Station/Components/Models/pen_1.fbx
+  artifactKey: Guid(63836e49c382a78419a671d636c6a0d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Low Poly Space Station/Components/Models/pen_1.fbx using Guid(63836e49c382a78419a671d636c6a0d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7daec830d891b894e31e2c76afc17b8f') in 0.010721 seconds 
+  Import took 0.014307 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006796 seconds.
+  path: Assets/Imported Assets/Low Poly Space Station/Components/Models/pen_1.fbx
+  artifactKey: Guid(63836e49c382a78419a671d636c6a0d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Low Poly Space Station/Components/Models/pen_1.fbx using Guid(63836e49c382a78419a671d636c6a0d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7daec830d891b894e31e2c76afc17b8f') in 0.010337 seconds 
+  Import took 0.013540 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.598817 seconds.
+  path: Assets/Imported Assets/Low Poly Space Station/Components/Models/panel_3.fbx
+  artifactKey: Guid(47301bc24a2253c45be64e7c980dbb6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Low Poly Space Station/Components/Models/panel_3.fbx using Guid(47301bc24a2253c45be64e7c980dbb6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9981670a2f17939ab1c79fa0c3626b73') in 0.021166 seconds 
+  Import took 0.025507 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 541.860886 seconds.
+  path: Assets/Prefabs/Escape Pod.prefab
+  artifactKey: Guid(4bc1e142d1c9a4e3dad67eb67442170d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Escape Pod.prefab using Guid(4bc1e142d1c9a4e3dad67eb67442170d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4e37b81a617465db2c30ff9aaa53a3b') in 0.073056 seconds 
+  Import took 0.079584 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004311 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.621 seconds
+Platform modules already initialized, skipping
+Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3054 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.5 MB.
+System memory in use after: 91.7 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3616.
+Total: 1.578500 ms (FindLiveObjects: 0.166791 ms CreateObjectMapping: 0.034583 ms MarkObjects: 1.297667 ms  DeleteObjects: 0.079042 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -137,10 +563,10 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003916 seconds.
+Registered in 0.004119 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Warning: Annotation not found!
 UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
@@ -152,18 +578,18 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (
 [/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.379 seconds
+- Completed reload, in  1.598 seconds
 Platform modules already initialized, skipping
 Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3055 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 100.1 MB.
-System memory in use after: 100.3 MB.
+Unloading 3054 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 86.8 MB.
+System memory in use after: 87.0 MB.
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3598.
-Total: 1.586833 ms (FindLiveObjects: 0.144875 ms CreateObjectMapping: 0.035917 ms MarkObjects: 1.309875 ms  DeleteObjects: 0.095500 ms)
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3618.
+Total: 1.546667 ms (FindLiveObjects: 0.149333 ms CreateObjectMapping: 0.034791 ms MarkObjects: 1.285875 ms  DeleteObjects: 0.076042 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -175,4 +601,288 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+========================================================================
+Received Import Request.
+  Time since last request: 980.337156 seconds.
+  path: Assets/Imported Assets/Low Poly Space Station/Components/Models/tubes_orange_2.fbx
+  artifactKey: Guid(f3230bc3acada1e4c81ca0aa6f5483d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Low Poly Space Station/Components/Models/tubes_orange_2.fbx using Guid(f3230bc3acada1e4c81ca0aa6f5483d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16fdd13fe0fecc2ed72dc51037171788') in 0.140391 seconds 
+  Import took 0.143736 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.937782 seconds.
+  path: Assets/Imported Assets/Low Poly Space Station/Components/Models/tubes_blue_1.fbx
+  artifactKey: Guid(fd767f601cf85024d9e492dcbb54e36a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Low Poly Space Station/Components/Models/tubes_blue_1.fbx using Guid(fd767f601cf85024d9e492dcbb54e36a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9483bfbced88e635ecd2d81e6944d8b0') in 0.017835 seconds 
+  Import took 0.022411 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003732 seconds.
+  path: Assets/Imported Assets/Low Poly Space Station/Components/Models/tubes_blue_1.fbx
+  artifactKey: Guid(fd767f601cf85024d9e492dcbb54e36a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Low Poly Space Station/Components/Models/tubes_blue_1.fbx using Guid(fd767f601cf85024d9e492dcbb54e36a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9483bfbced88e635ecd2d81e6944d8b0') in 0.014149 seconds 
+  Import took 0.018045 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.044372 seconds.
+  path: Assets/Imported Assets/Low Poly Space Station/Components/Models/tubes_black_2.fbx
+  artifactKey: Guid(3b66e77cf285919468c4c3b921eaa592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Low Poly Space Station/Components/Models/tubes_black_2.fbx using Guid(3b66e77cf285919468c4c3b921eaa592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a27b1318f9f4dbb73678e60727bb95cc') in 0.014111 seconds 
+  Import took 0.018733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003126 seconds.
+  path: Assets/Imported Assets/Low Poly Space Station/Components/Models/tubes_black_2.fbx
+  artifactKey: Guid(3b66e77cf285919468c4c3b921eaa592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Low Poly Space Station/Components/Models/tubes_black_2.fbx using Guid(3b66e77cf285919468c4c3b921eaa592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a27b1318f9f4dbb73678e60727bb95cc') in 0.013040 seconds 
+  Import took 0.016720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 198.483369 seconds.
+  path: Assets/Imported Assets/Low Poly Space Station/Components/Models/lamp_small.fbx
+  artifactKey: Guid(3341807e475f2104499de52e16e6b952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Low Poly Space Station/Components/Models/lamp_small.fbx using Guid(3341807e475f2104499de52e16e6b952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c50401f201cef5f96ba2e941e070606') in 0.019659 seconds 
+  Import took 0.023499 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.093849 seconds.
+  path: Assets/Imported Assets/Low Poly Space Station/Components/Models/laptop_wires.fbx
+  artifactKey: Guid(95b8dfe605e63b041b619a0d5dcec83e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Low Poly Space Station/Components/Models/laptop_wires.fbx using Guid(95b8dfe605e63b041b619a0d5dcec83e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5fd1d7beb4cc303dfbfc44a5a368a55') in 0.019223 seconds 
+  Import took 0.025753 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 57.491553 seconds.
+  path: Assets/Imported Assets/Low Poly Space Station/Components/Models/panel_1.fbx
+  artifactKey: Guid(4709886f7da52a34cb89f391b090156f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Low Poly Space Station/Components/Models/panel_1.fbx using Guid(4709886f7da52a34cb89f391b090156f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f46ed7f78ef7b6434e414974867626c0') in 0.012225 seconds 
+  Import took 0.016176 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000859 seconds.
+  path: Assets/Imported Assets/Low Poly Space Station/Components/Models/panel_1.fbx
+  artifactKey: Guid(4709886f7da52a34cb89f391b090156f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Low Poly Space Station/Components/Models/panel_1.fbx using Guid(4709886f7da52a34cb89f391b090156f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f46ed7f78ef7b6434e414974867626c0') in 0.012091 seconds 
+  Import took 0.015239 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 551.035402 seconds.
+  path: Assets/Imported Assets/Low Poly Space Station
+  artifactKey: Guid(719d2d7c80daa0c4d83f679a04264648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/Low Poly Space Station using Guid(719d2d7c80daa0c4d83f679a04264648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de271824c226c6ff14540ec7b6a9bfce') in 0.000752 seconds 
+  Import took 0.004738 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005065 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.639 seconds
+Platform modules already initialized, skipping
+Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3054 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.3 MB.
+System memory in use after: 82.6 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3621.
+Total: 1.528500 ms (FindLiveObjects: 0.174333 ms CreateObjectMapping: 0.034083 ms MarkObjects: 1.232125 ms  DeleteObjects: 0.087417 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002653 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.755 seconds
+Platform modules already initialized, skipping
+Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3055 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 77.7 MB.
+System memory in use after: 77.9 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3624.
+Total: 1.664584 ms (FindLiveObjects: 0.163458 ms CreateObjectMapping: 0.037917 ms MarkObjects: 1.365042 ms  DeleteObjects: 0.097584 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002815 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.635 seconds
+Platform modules already initialized, skipping
+Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3055 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.0 MB.
+System memory in use after: 73.2 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3626.
+Total: 1.582250 ms (FindLiveObjects: 0.169750 ms CreateObjectMapping: 0.036459 ms MarkObjects: 1.288709 ms  DeleteObjects: 0.086666 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004199 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.571 seconds
+Platform modules already initialized, skipping
+Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3055 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 68.3 MB.
+System memory in use after: 68.5 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3628.
+Total: 1.623291 ms (FindLiveObjects: 0.177083 ms CreateObjectMapping: 0.033959 ms MarkObjects: 1.315541 ms  DeleteObjects: 0.096083 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002751 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[/Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs line 37]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.687 seconds
+Platform modules already initialized, skipping
+Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3055 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 63.7 MB.
+System memory in use after: 63.9 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3630.
+Total: 1.682417 ms (FindLiveObjects: 0.194333 ms CreateObjectMapping: 0.039792 ms MarkObjects: 1.352542 ms  DeleteObjects: 0.094916 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
