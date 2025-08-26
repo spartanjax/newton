@@ -28,7 +28,7 @@ After all, *you built the Gravity Alteration Device… this should be easy… ri
 
 ## 🛠️ Development
 
-Built using **Unity**, Newton showcases unique physics interactions and creative puzzle design.
+Built using **Unity**, Newton showcases unique physics interactions and creative puzzle design. Features built with C# and Prefabs made with Blender/Unity. 
 
 ---
 
