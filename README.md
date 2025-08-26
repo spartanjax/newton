@@ -1,4 +1,4 @@
 # newton
-You're alone in space. And if it couldn't be any worse, your ship is malfunctioning and automatically goes into lockdown. You must navigate the spacecraft and get the ship's systems online! 
+You're a scientist renowed for your prized invention: The Gravity Alteration Device... Since launch 2 years ago, you and your small team of 4 ahve been researching gravity and all its various anomolies aboard the USSP Newton. One day, you find yourself amidst a large space anomoly, and the chaos ensues from there...
 
-Newton: a puzzle-based game where the player must think outside of the box and utilize gravity to move through increasingly difficult stages. This build has a large tutorial level, as well as a couple of follow-up levels. 
+Newton is a puzzle-based game where the player must think outside of the box utilizing gravity and various uniques objects to progress. I mean, you made the damn device... This should be easy... Right?
