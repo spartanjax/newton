@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{03DCC610-54BC-7233-92D2-CC7C148ECC78}</ProjectGuid>
+    <ProjectGuid>{587D27DC-B443-887A-39BC-53C78B67B6F5}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.ProBuilder.AddOns.Editor</AssemblyName>
@@ -863,27 +863,27 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.ProBuilder.csproj">
-      <Project>{BEAB3E5C-0375-CE9E-F2B8-8F2A03F046E7}</Project>
+      <Project>{C47ABF81-35F0-6CAE-1645-32DBD380B853}</Project>
       <Name>Unity.ProBuilder</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.ProBuilder.Editor.csproj">
-      <Project>{405088E5-ABBF-E89B-9374-AF7D2B3BF2FD}</Project>
+      <Project>{1D182875-E5EF-4FBB-484C-4DABC084741C}</Project>
       <Name>Unity.ProBuilder.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{9FDA3046-C854-3041-B68E-D51FC608F50B}</Project>
+      <Project>{3DB7ED14-53C4-AC20-E7F0-D31BCF06A1EB}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{0ACF8BE4-79B7-C2BE-96D8-4EE1AA49B0F9}</Project>
+      <Project>{FDB46C41-3006-4A16-9242-33FB2FDA1698}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{002A2F54-627A-3A30-AB91-53B0DA9C1BA4}</Project>
+      <Project>{A4CE92AF-95E0-00BF-C7D5-4E0146E10126}</Project>
       <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{8C357337-5DF6-9F02-03E4-A221F2F744C7}</Project>
+      <Project>{D4061709-E671-3DEE-E88C-951E0B5AB530}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>

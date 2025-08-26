@@ -9,6 +9,7 @@ public class HazardManager : MonoBehaviour
     public UnlockdownButton unlockdownButton;
     public GameObject buttonLight;
     public GameObject computerMessage;
+    public GameObject computerObjs;
 
     void Update()
     {
@@ -17,6 +18,7 @@ public class HazardManager : MonoBehaviour
             NeutralizedMessage.SetActive(true);
             unlockdownButton.hazards = false;
             computerMessage.SetActive(true);
+            computerObjs.SetActive(false);
 
             if (unlockdownButton.called == false) {
                 buttonLight.SetActive(true);

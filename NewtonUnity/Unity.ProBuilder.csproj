@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{BEAB3E5C-0375-CE9E-F2B8-8F2A03F046E7}</ProjectGuid>
+    <ProjectGuid>{C47ABF81-35F0-6CAE-1645-32DBD380B853}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.ProBuilder</AssemblyName>
@@ -966,19 +966,19 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.ProBuilder.Poly2Tri.csproj">
-      <Project>{F5498B58-BE62-295B-9A16-6B7F85482A1C}</Project>
+      <Project>{304B2AED-A6A1-5461-D3EC-13CB9E8B296A}</Project>
       <Name>Unity.ProBuilder.Poly2Tri</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.ProBuilder.KdTree.csproj">
-      <Project>{D30D96B3-D6D7-27C0-D9C5-D910508E9441}</Project>
+      <Project>{C8BABABC-270B-EECB-561E-CA49BA106CCD}</Project>
       <Name>Unity.ProBuilder.KdTree</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{9FDA3046-C854-3041-B68E-D51FC608F50B}</Project>
+      <Project>{3DB7ED14-53C4-AC20-E7F0-D31BCF06A1EB}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{0ACF8BE4-79B7-C2BE-96D8-4EE1AA49B0F9}</Project>
+      <Project>{FDB46C41-3006-4A16-9242-33FB2FDA1698}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
   </ItemGroup>

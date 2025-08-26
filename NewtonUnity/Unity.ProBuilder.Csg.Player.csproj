@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{DFB312CF-763E-138A-9BDD-28E023470D32}</ProjectGuid>
+    <ProjectGuid>{B1B70326-1CA0-5072-2AE2-198F62EA5857}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.ProBuilder.Csg</AssemblyName>
@@ -803,7 +803,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
-      <Project>{93AAD07F-4858-6BBA-B177-72D8364B220D}</Project>
+      <Project>{C4BEDEFA-8776-5C46-A5B3-15CEA7F4D286}</Project>
       <Name>UnityEngine.UI.Player</Name>
     </ProjectReference>
   </ItemGroup>

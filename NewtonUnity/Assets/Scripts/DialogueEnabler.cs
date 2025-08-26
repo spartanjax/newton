@@ -6,6 +6,7 @@ public class DialogueEnabler : MonoBehaviour
 {
     public DialogueManager DialogueManager;
     private bool happened = false;
+    public string who;
     public string text;
     public bool isThought;
     public float duration;
@@ -14,7 +15,7 @@ public class DialogueEnabler : MonoBehaviour
     {
         if (!happened)
         {
-            StartCoroutine(DialogueManager.ShowDialogue(isThought, text, duration));
+            StartCoroutine(DialogueManager.ShowDialogue(isThought, "<"+who+">: "+text, duration));
         }
         happened = true;
 
