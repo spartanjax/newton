@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{7C8A5A38-2DE6-4CCF-E25D-192184EC0374}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Player/PlayerRaycast.cs">
+    <Files>
+      <File FileName="Assets/Scripts/Player/GravityGun.cs" Line="33" Column="1" />
+      <File FileName="Assets/Scripts/Level Hub/ShardInteraction.cs" Line="67" Column="1" />
+      <File FileName="Assets/Scripts/Tutorial/doorController.cs" />
+      <File FileName="Assets/Scripts/Level Hub/GravityField.cs" />
+      <File FileName="Assets/CollisionErrorDetect.cs" Line="9" Column="1" />
+      <File FileName="Assets/Scripts/Level Hub/UnlockdownButton.cs" Line="33" Column="25" />
+      <File FileName="Assets/FlickeringLight.cs" Line="20" Column="21" />
+      <File FileName="Assets/Scripts/HazardManager.cs" Line="23" Column="14" />
+      <File FileName="Assets/Scripts/Player/PlayerRaycast.cs" Line="54" Column="37" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Unity.VisualStudio.Editor PreferredExecutionTarget="5ee6c8bf-e5cb-4a8a-9520-70b7d2785deb" />
+  <MonoDevelop.Ide.ItemProperties.Unity.Settings.Editor PreferredExecutionTarget="5ee6c8bf-e5cb-4a8a-9520-70b7d2785deb" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Unity.ProBuilder.KdTree PreferredExecutionTarget="5ee6c8bf-e5cb-4a8a-9520-70b7d2785deb" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="681c2808-33f2-434b-9e42-7f7625bffcf0" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
