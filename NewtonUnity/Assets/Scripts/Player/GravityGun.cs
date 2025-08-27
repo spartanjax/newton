@@ -7,6 +7,7 @@ public class GravityGun : MonoBehaviour
     [Range(0, 100)] public float gravityPercent = 100f;
     public float scrollSpeed = 10f;
     public float shootCooldown = 0.2f;
+    public float delayTime = 0.5f;
 
     [Header("References")]
     public Camera playerCamera;
@@ -46,8 +47,10 @@ public class GravityGun : MonoBehaviour
         // Shoot object with cooldown
         if (Input.GetMouseButtonDown(0) && Time.time - lastShootTime >= shootCooldown)
         {
+            gunAnim.SetTrigger("Shoot");
             ShootObject();
             lastShootTime = Time.time;
+            //gunAnim.ResetTrigger("Shoot");
         }
 
         if (Input.GetMouseButtonDown(1) && Time.time - lastShootTime >= shootCooldown)
@@ -55,6 +58,7 @@ public class GravityGun : MonoBehaviour
             gunAnim.SetTrigger("SelfPoint");
             ShootSelf();
             lastShootTime = Time.time;
+            //gunAnim.ResetTrigger("SelfPoint");
         }
     }
 
@@ -113,6 +117,9 @@ public class GravityGun : MonoBehaviour
             }
 
             Rigidbody rb = hit.collider.GetComponent<Rigidbody>();
+            Debug.Log(rb.gameObject.name);
+
+            //if hit an object, apply small force
             if (rb != null)
             {
                 Vector3 forceDir = (hit.point - muzzlePoint.position).normalized;
@@ -120,13 +127,16 @@ public class GravityGun : MonoBehaviour
                 rb.AddForce(forceDir * forceAmount, ForceMode.Impulse);
             }
 
+            //hit an adjustable object
             if (rb != null && (hit.collider.CompareTag("Objects") || hit.collider.CompareTag("ObjectsL")))
             {
-                ApplyGravity(rb, gravityPercent);
+                ApplyGravity(rb, gravityPercent, true);
             }
+
+            //special cases for hazard scene
             else if (rb != null && hit.collider.CompareTag("HazardB1") && !hazOne)
             {
-                ApplyGravity(rb, gravityPercent);
+                ApplyGravity(rb, gravityPercent, true);
                 if (gravityPercent != 0)
                 {
                     HazardManager.hazards -= 1;
@@ -136,7 +146,7 @@ public class GravityGun : MonoBehaviour
             }
             else if (rb != null && hit.collider.CompareTag("HazardB2") && !hazTwo)
             {
-                ApplyGravity(rb, gravityPercent);
+                ApplyGravity(rb, gravityPercent, true);
                 if (gravityPercent != 0)
                 {
                     HazardManager.hazards -= 1;
@@ -150,11 +160,38 @@ public class GravityGun : MonoBehaviour
     void ShootSelf()
     {
         if (playerRb != null)
-            ApplyGravity(playerRb, gravityPercent);
+            ApplyGravity(playerRb, gravityPercent, true);
     }
 
-    public void ApplyGravity(Rigidbody rb, float gp)
+    public void ApplyGravity(Rigidbody rb, float gp, bool delay)
     {
+        if (delay)
+        {
+            StartCoroutine(ApplyGravityWithDelay(rb, gp));
+        } else
+        {
+            rb.useGravity = false;
+            float multiplier = gp / 100f;
+
+            //Get rid of all grav controllers
+            GravityController[] controllers = rb.GetComponents<GravityController>();
+            foreach (var c in controllers)
+            {
+                Destroy(c);
+            }
+
+            //Add another grav controller
+            GravityController newController;
+            newController = rb.gameObject.AddComponent<GravityController>();
+            newController.multiplier = multiplier;
+        }
+    }
+
+    //ApplyGravity function moved into aa delayed Coroutine
+    private IEnumerator ApplyGravityWithDelay(Rigidbody rb, float gp)
+    {
+        yield return new WaitForSeconds(delayTime);
+
         rb.useGravity = false;
         float multiplier = gp / 100f;
 
@@ -165,4 +202,5 @@ public class GravityGun : MonoBehaviour
         controller = rb.gameObject.AddComponent<GravityController>();
         controller.multiplier = multiplier;
     }
+
 }

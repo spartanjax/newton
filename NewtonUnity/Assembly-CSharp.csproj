@@ -58,21 +58,22 @@
     <Analyzer Include="/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets/Scripts/ObjectControllers/BreathingOpacity.cs" />
     <Compile Include="Assets/Scripts/Menu/EndMenu.cs" />
     <Compile Include="Assets/Scripts/Managers/gravDeviceManager.cs" />
-    <Compile Include="Assets/Scripts/ImageFader.cs" />
+    <Compile Include="Assets/Scripts/ObjectControllers/ImageFader.cs" />
     <Compile Include="Assets/Scripts/Menu/SettingsMenu.cs" />
     <Compile Include="Assets/Scripts/Menu/MenuStation.cs" />
     <Compile Include="Assets/Scripts/Level Hub/levelHubTransition.cs" />
     <Compile Include="Assets/Scripts/Menu/PauseMenu.cs" />
-    <Compile Include="Assets/Scripts/DialogueManager.cs" />
+    <Compile Include="Assets/Scripts/Managers/DialogueManager.cs" />
     <Compile Include="Assets/Scripts/Player/gravityDisplay.cs" />
-    <Compile Include="Assets/Scripts/CoordinateTracker.cs" />
+    <Compile Include="Assets/Scripts/ObjectControllers/CoordinateTracker.cs" />
     <Compile Include="Assets/Scripts/Tutorial/gravKeyTips.cs" />
-    <Compile Include="Assets/Scripts/FlashingLight.cs" />
-    <Compile Include="Assets/Scripts/GravityController.cs" />
-    <Compile Include="Assets/Scripts/RandomImpulse.cs" />
-    <Compile Include="Assets/Scripts/SkyboxRotator.cs" />
+    <Compile Include="Assets/Scripts/ObjectControllers/FlashingLight.cs" />
+    <Compile Include="Assets/Scripts/ObjectControllers/GravityController.cs" />
+    <Compile Include="Assets/Scripts/ObjectControllers/RandomImpulse.cs" />
+    <Compile Include="Assets/Scripts/ObjectControllers/SkyboxRotator.cs" />
     <Compile Include="Assets/Scripts/Tutorial/Interactables/pushVentInteraction.cs" />
     <Compile Include="Assets/Scripts/Tutorial/cameraShake.cs" />
     <Compile Include="Assets/Scripts/Tutorial/Interactables/greenKeyCardInteraction.cs" />
@@ -81,7 +82,7 @@
     <Compile Include="Assets/Imported Assets/Low Poly Space Station/Components/Scripts/RotationScript.cs" />
     <Compile Include="Assets/Scripts/Player/playerManager.cs" />
     <Compile Include="Assets/Scripts/Menu/MainMenu.cs" />
-    <Compile Include="Assets/Scripts/HazardManager.cs" />
+    <Compile Include="Assets/Scripts/Managers/HazardManager.cs" />
     <Compile Include="Assets/Scripts/Tutorial/Interactables/penInteraction.cs" />
     <Compile Include="Assets/Scripts/Level Hub/midLevel.cs" />
     <Compile Include="Assets/Scripts/Player/PlayerMovement.cs" />
@@ -90,21 +91,23 @@
     <Compile Include="Assets/Scripts/Level Hub/ShardInteraction.cs" />
     <Compile Include="Assets/Scripts/Player/PlayerRaycast.cs" />
     <Compile Include="Assets/Imported Assets/Planet Earth Free/SpinFree.cs" />
-    <Compile Include="Assets/Scripts/DialogueEnabler.cs" />
+    <Compile Include="Assets/Scripts/ObjectControllers/DialogueEnabler.cs" />
+    <Compile Include="Assets/Scripts/Player/PlayerRaycastObjects.cs" />
+    <Compile Include="Assets/Scripts/ObjectControllers/ObjectInteraction.cs" />
     <Compile Include="Assets/Scripts/Menu/MenuCamera.cs" />
     <Compile Include="Assets/Imported Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/About/Scripts/Readme.cs" />
     <Compile Include="Assets/Scripts/Tutorial/Interactables/keyInteraction.cs" />
-    <Compile Include="Assets/Scripts/PanelDisplay.cs" />
+    <Compile Include="Assets/Scripts/ObjectControllers/PanelDisplay.cs" />
     <Compile Include="Assets/Scripts/Player/playerHasWon.cs" />
     <Compile Include="Assets/Scripts/Managers/SelectionManager.cs" />
     <Compile Include="Assets/Scripts/Tutorial/Interactables/fVentInteraction.cs" />
     <Compile Include="Assets/Scripts/Managers/GravityManager.cs" />
-    <Compile Include="Assets/Scripts/FlickeringLight.cs" />
+    <Compile Include="Assets/Scripts/ObjectControllers/FlickeringLight.cs" />
     <Compile Include="Assets/Scripts/Tutorial/lockdownTrigger.cs" />
-    <Compile Include="Assets/Scripts/CamOpen.cs" />
+    <Compile Include="Assets/Scripts/ObjectControllers/CamOpen.cs" />
     <Compile Include="Assets/Scripts/Tutorial/Interactables/rVentInteraction.cs" />
     <Compile Include="Assets/Scripts/Managers/TutorialMananger.cs" />
-    <Compile Include="Assets/Scripts/CollisionErrorDetect.cs" />
+    <Compile Include="Assets/Scripts/ObjectControllers/CollisionErrorDetect.cs" />
     <Compile Include="Assets/Scripts/Managers/ResetManager.cs" />
     <Compile Include="Assets/Scripts/Player/ScrollWheel.cs" />
     <Compile Include="Assets/Scripts/Player/MoveCamera.cs" />
@@ -113,9 +116,6 @@
     <Compile Include="Assets/Scripts/Tutorial/Interactables/coffeeInteraction.cs" />
     <Compile Include="Assets/Scripts/Level Hub/Level1Trigger.cs" />
     <Compile Include="Assets/Scripts/Managers/ObjectManager.cs" />
-    <Compile Include="Assets/Scripts/PlayerRaycastObjects.cs" />
-    <Compile Include="Assets/Scripts/ObjectInteraction.cs" />
-    <Compile Include="Assets/BreathingOpacity.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/Imported Assets/TextMesh Pro/Shaders/TMPro.cginc" />

@@ -5,17 +5,17 @@ using UnityEngine;
 public class GravityField : MonoBehaviour
 {
     public GameObject blueScreen;
-    public GravityController gravityController;
+    public GravityGun GravityGun;
     public float waitTime;
     private bool isEntered;
-    public GravityGun GravityGun;
     public Rigidbody playerRb;
+    public GameObject player;
 
     private void Update()
     {
         if(isEntered)
         {
-            GravityGun.ApplyGravity(playerRb, 100);
+            GravityGun.ApplyGravity(playerRb, 100, false);
         }
     }
 
@@ -38,7 +38,12 @@ public class GravityField : MonoBehaviour
     {
         yield return new WaitForSeconds(waitTime);
         isEntered = true;
-        GravityGun.ApplyGravity(playerRb, 100);
-        gravityController.multiplier = 100f;
+
+        GravityController g = player.GetComponent<GravityController>();
+        if (g.multiplier != 100)
+        {
+            GravityGun.ApplyGravity(playerRb, 100, false);
+        }
+        //gravityController.multiplier = 100f;
     }
 }
